@@ -1,0 +1,311 @@
+body{
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:grey;
+}
+
+.empresa{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    justify-content: flex-start;
+}
+
+.botoes{
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    justify-content: center;
+}
+.acessos{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.login{
+    color:grey;
+}
+.cadastro{
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 2%;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
+}
+
+#sobrenos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#infos{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.colaboradores{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-bottom: 80px;
+}
+
+#anuncioart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.anuncio{
+    border-radius: 20px;
+    background-color: rgba(165, 42, 42, 0.116);
+    color:brown;
+    width: 120px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#design{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product{
+    border-radius: 18px;
+    border: solid 1px rgba(128, 128, 128, 0.144);
+    width: 60%;
+    padding: 20px;
+    color: grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+
+.ux-designer{
+    border-radius: 18px;
+    border: solid 1px rgba(128, 128, 128, 0.144);
+    width: 60%;
+    padding: 20px;
+    color: grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.dados-product {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.dados-ux {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+#developer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dev-ios{
+    border-radius: 18px;
+    border: solid 1px rgba(128, 128, 128, 0.144);
+    width: 60%;
+    padding: 20px;
+    color: grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.dev-front{
+    border-radius: 18px;
+    border: solid 1px rgba(128, 128, 128, 0.144);
+    width: 60%;
+    padding: 20px;
+    color: grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.dev-back{
+    border-radius: 18px;
+    border: solid 1px rgba(128, 128, 128, 0.144);
+    width: 60%;
+    padding: 20px;
+    color: grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.avaliacao {
+    background-color: rgba(209, 124, 124, 0.116);
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+
+.avaliacao p {
+    color: brown;
+}
+
+.avaliacao h6 {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    font-weight: lighter;
+    width: 60%;
+}
+
+.avaliacao text {
+    color: grey;
+}
+
+.avaliacao #name{
+    color: black;
+}
+
+#titulo-dev {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    font-size: 22px;
+    width: 60%;
+}
+
+#titulo-design {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    font-size: 22px;
+    width: 60%;
+}
+
+footer {
+    background-color: rgba(189, 188, 188, 0.096);
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin-left: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+buttom {
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    border-radius: 18px;
+    border: solid 1px rgba(128, 128, 128, 0.247);
+    padding: 8px;
+    color: grey;
+}
+
+footer h2 {
+    margin-bottom: 0px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+footer text{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
